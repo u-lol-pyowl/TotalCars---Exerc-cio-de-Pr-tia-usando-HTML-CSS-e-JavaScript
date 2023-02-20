@@ -1,0 +1,83 @@
+body{
+  background-color: rgb(43, 40, 40);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.title{
+  background-color: rgb(24, 20, 20);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: whitesmoke;
+  text-shadow: -1px -1px 0px #000;
+}
+
+.video{
+  position: absolute;
+  left: 460px;
+  top: 165px;
+  margin: 1px 1px 0 0;
+  padding: 3px;
+  background-color: #000;
+  border: 1px solid black;
+}
+
+.imagemCar{
+  margin: 1px 1px 0 0;
+  padding: 3px;
+  background-color: #000;
+  border: 1px solid black;
+}
+
+#parceriaImagem1{
+  margin-left: 50px;
+}
+
+#parceriaImagem2{
+  margin-left: 50px;
+}
+
+#parceriaImagem3{
+  margin-left: 80px;
+  margin-bottom: 30px;
+}
+
+#parceriaImagem4{
+  margin-left: 80px;
+}
+
+#table{
+  width: 500px;
+  height: 380px;
+  background: rgb(94, 91, 107);  
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20px;
+  margin-left: 400px;
+  margin-top: 120px;
+}
+
+.info{
+  text-align: center;
+}
+
+.prgt{
+  margin-left: 155px;
+  border-radius: 20px;
+  background-color: whitesmoke;
+}
+
+#botao{
+  height: 50px;
+  width: 90px;
+  align-items: center;
+  margin-left: 210px;
+  background-color: rgb(130, 102, 252);
+} 
+
+#res{
+  text-align: center;
+  color: white;
+}

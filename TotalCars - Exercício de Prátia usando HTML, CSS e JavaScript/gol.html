@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gol - Aluguel</title>
+  <link rel="shortcut icon" href="imagens/favicon/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="table">
+    <div class="info">
+      <h1>
+        Selecione as informações desejadas:
+      </h1>
+    </div>
+      <label for="day" class="info">
+        <p>
+          Selecione quantos dias você deseja ficar com o Carro:
+        </p>
+      </label>
+        <input type="number" class="prgt" name="pergunta" placeholder="Taxa por dia: R$80,00" required>
+      <label for="color" class="info">
+        <p>
+          Selecione a cor do carro:
+        </p>
+      </label>
+        <input type="text" name="pergunta2" class="prgt" placeholder="Branco/ Preto/ Vermelho" required>
+      <label for="tanque" class="info">
+        <p>
+          Você receberá o carro com seu tanque cheio, por favor, utilize com sabedoria
+        </p>
+      </label>
+        <input type="button" id="botao" onclick="soma()" value="Enviar">
+  </div>
+  <div id="res">
+    Ticket
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
